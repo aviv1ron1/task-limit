@@ -1,0 +1,26 @@
+{
+    "name": "task-limit",
+    "version": "0.0.1",
+    "description": "queue with controled limit on number of concurent tasks that can be consumed",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aviv1ron1/task-limit.git"
+    },
+    "author": {
+        "name": "Aviv Ron",
+        "email": "aviv1ron1@gmail.com"
+    },
+    "dependencies": {
+        "fifo": "2.3"
+    },
+    "keywords": [
+        "limit",
+        "queue",
+        "async",
+        "speed",
+        "throttle",
+        "workload"
+    ],
+    "main": "index.js",
+    "license": "MIT"
+}
